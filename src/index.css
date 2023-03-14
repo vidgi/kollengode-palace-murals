@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Mincho";
+  src: local("Mincho"), url("./fonts/mincho.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: Mincho;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(125, 103, 90);
+  font-weight: 300;
+  /* background-color: rgb(247, 234, 218); */
+  /* font-size: 12px; */
+  /* text-transform: lowercase; */
+}
+
+p {
+  text-align: right !important;
+}
+/* img {
+  border-radius: 20px;
+} */
+
+img:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
