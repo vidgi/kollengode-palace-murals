@@ -10,11 +10,15 @@ export function StickyNote(props) {
               <div class="container">
                 <img height="400vw" title={props.text} class="image" src={props.image} alt="notes" />
 
-                <div class="overlay">
-                  <div class="text">
-                    <i>{props.text}</i>
+                {props.text ? (
+                  <div class="overlay">
+                    <div class="text">
+                      <i>{props.text}</i>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <></>
+                )}
               </div>
             }
           </props.color>

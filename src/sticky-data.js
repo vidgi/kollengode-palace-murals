@@ -17,14 +17,12 @@ import pic10 from "./images/10.png";
 import pic11 from "./images/11.jpg";
 import pic12 from "./images/12.png";
 import pic13 from "./images/13.png";
-import pic14 from "./images/14.png";
 import pic15 from "./images/15.png";
 import pic16 from "./images/16.png";
 import pic17 from "./images/17.png";
 import pic18 from "./images/18.png";
 import pic19 from "./images/19.png";
 import pic20 from "./images/20.png";
-import pic21 from "./images/21.png";
 import pic22 from "./images/22.png";
 import pic23 from "./images/23.png";
 import pic24 from "./images/24.jpg";
@@ -35,8 +33,8 @@ import pic28 from "./images/28.png";
 import pic29 from "./images/29.jpg";
 
 import { NoColor } from "./colored-sticky-styles";
-const ydist = 20;
-const width = 600;
+const ydist = 5;
+const width = 100;
 export const StickyLinkData = [
   {
     key: 0,
@@ -158,18 +156,11 @@ export const StickyLinkData = [
     position: { x: 12.9 * width, y: ydist + 50 },
   },
   {
-    key: 14,
-    color: NoColor,
-    image: pic14,
-    text: "The Image of Govardhan Hill, Lifted by Lord Krishna",
-    position: { x: 13.5 * width, y: ydist + 100 },
-  },
-  {
     key: 15,
     color: NoColor,
     image: pic15,
     text: "The Cosmic Form of Lord Mahavishnu",
-    position: { x: 15.6 * width, y: ydist + 50 },
+    position: { x: 14.5 * width, y: ydist + 50 },
   },
   {
     key: 16,
@@ -207,25 +198,18 @@ export const StickyLinkData = [
     position: { x: 20 * width, y: ydist + 100 },
   },
   {
-    key: 21,
-    color: NoColor,
-    image: pic21,
-    text: "Distribution of Prasada from Dasaratha's Puthrakameshti Ritual",
-    position: { x: 21.1 * width, y: ydist + 50 },
-  },
-  {
     key: 22,
     color: NoColor,
     image: pic22,
     text: "Proposal of Ravana",
-    position: { x: 22.1 * width, y: ydist },
+    position: { x: 21.5 * width, y: ydist },
   },
   {
     key: 23,
     color: NoColor,
     image: pic23,
     text: "Lord Rama Overpowering Parasurama",
-    position: { x: 23.5 * width, y: ydist + 50 },
+    position: { x: 23 * width, y: ydist + 50 },
   },
   {
     key: 24,
@@ -258,15 +242,15 @@ export const StickyLinkData = [
   {
     key: 28,
     color: NoColor,
-    image: pic28,
-    text: "Ravanabhikshu",
+    image: pic29,
+    text: "Padmapani Bodhisattvan",
     position: { x: 27.5 * width, y: ydist + 100 },
   },
   {
     key: 29,
     color: NoColor,
-    image: pic29,
-    text: "Padmapani Bodhisattvan",
-    position: { x: 28.5 * width, y: ydist + 50 },
+    image: pic28,
+    text: "Ravanabhikshu",
+    position: { x: 29 * width, y: ydist + 50 },
   },
 ];
