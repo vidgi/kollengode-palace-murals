@@ -2,14 +2,16 @@
 
 experimental visualization of [murals from kerala](https://en.wikipedia.org/wiki/Kerala_mural_painting), from the [mural art centre](https://www.archaeology.kerala.gov.in/monuments/mural-art-centre/45), thrissur at the historic [kollengode palace](https://en.wikipedia.org/wiki/Kollengode_Palace)
 
-- to run local: `yarn start`
-- to build: `yarn build`
-- to deploy: `yarn run deploy`
+- to run local: `pnpm dev`
+- to build: `pnpm build`
+- to deploy: `pnpm run deploy`
 
 packages:
 
 - [react-draggable](https://github.com/react-grid-layout/react-draggable/)
 - [styled-components](https://styled-components.com/)
+- [vite](https://vitejs.dev/)
+- [typescript](https://www.typescriptlang.org/)
 
 to add later(maybe):
 

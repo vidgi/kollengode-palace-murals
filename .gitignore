@@ -5,11 +5,14 @@
 /.pnp
 .pnp.js
 
+# pnpm local content-addressable store
+.pnpm-store/
+
 # testing
 /coverage
 
-# production
-/build
+# production (Vite)
+/dist
 
 # misc
 .DS_Store
@@ -21,3 +24,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build info
+*.tsbuildinfo
